@@ -16,7 +16,7 @@
         }
 
         .row {
-            background-color: rgb(158, 105, 191);
+            background-color: rgb(232, 225, 236);
             display: flex;
             justify-content: space-between;
             position:sticky;
@@ -24,7 +24,7 @@
         }
 
         .box {
-            background-color: grey;
+            background-color: white; 
             padding: 10px;
         }
 
@@ -86,6 +86,25 @@
             background-color: white;
             color: black;
             margin: 10px;
+            border-radius: 20px;
+        }
+
+        li{
+            display: inline;
+            padding: 5px;
+            font-size: large;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            background-color: yellow;
+            font-size: larger;
+        }
+        .imgclass{
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -96,9 +115,15 @@
             <div>
                 <h1>Ramya Swarna</h1>
             </div>
-            <div><a href="#Home">Home</a> | <a href="#Project">Project</a>
-                | <a href="#Contact">Contact</a> | <a href="#About">About</a>
-                | <a href="#Services">Services</a></div>
+            <div class = "box">
+                <ul>
+                    <li><a href="#Home">Home</a></li> 
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Contact">Contact</a> </li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                </ul>   
+            </div>
         </div>
         <div class="row1" id="Home">
             <div>
@@ -107,7 +132,7 @@
                     <h2>Full stack developer</h2>
                 </div>
             </div>
-            <div><img src="https://picsum.photos/200/300?"></div>
+            <div><img class="imgclass" src="https://picsum.photos/200/300?"></div>
 
         </div>
 
