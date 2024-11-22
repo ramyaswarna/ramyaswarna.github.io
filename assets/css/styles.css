@@ -1,10 +1,19 @@
 * {
-    margin: 0px
+    margin: 0px;
+    scroll-behavior:smooth;
 }
 
 .container {
-    background-color: red;
-    margin: 0px
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(245, 243, 243);
+    margin: 0px;
+    /* height: 100%; */
 }
 
 .row {
@@ -24,7 +33,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 800px;
+    height: 100%;
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: rgb(84, 53, 196);
@@ -34,7 +43,8 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 800px;
+    /* height: 800px; */
+    height: 100%;
     align-items: center;
     background-color: rgb(209, 210, 237);
 
@@ -44,7 +54,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 800px;
+    height: 100%; 
     align-items: center; 
     background-color: bisque;           
 }
@@ -53,7 +63,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 800px;
+    height: 100%;
     align-items: center; 
     background-color: rgb(200, 216, 233);           
 }
@@ -62,7 +72,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 800px;
+    height: 100%;
     align-items: center; 
 
 }
